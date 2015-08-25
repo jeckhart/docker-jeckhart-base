@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Meant to be imported by other shell scripts in the docker build
+
+# Fail if any of these commands fails and show the commands that are executed
+set -e
+set -x
