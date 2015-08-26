@@ -3,5 +3,5 @@ MAINTAINER John Eckhart "jeckhart@yodle.com"
 
 ADD build /build/docker-jeckhart-base
 
-RUN /build/docker-jeckhart-base/prepare.sh
+RUN /build/docker-jeckhart-base/prepare.sh && /build/docker-jeckhart-base/python.sh
 RUN /build/docker-jeckhart-base/cleanup.sh
