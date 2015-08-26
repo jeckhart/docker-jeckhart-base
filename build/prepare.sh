@@ -8,9 +8,6 @@ locale-gen
 rsync -rva /build/docker-jeckhart-base/portage/ /etc/portage/
 
 emerge-webrsync
-eselect profile list
 
-emerge -v1 openssl openssh
-emerge -DNv vim eix
-
+emerge -v eix vim
 eix-update
