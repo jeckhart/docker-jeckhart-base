@@ -11,4 +11,4 @@ wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 wget https://bootstrap.pypa.io/ez_setup.py -O - | pypy
 emerge -v1 --nodeps packaging setuptools pbr
 
-# emerge -v virtualenvwrapper dev-python/pip
+emerge -v virtualenvwrapper dev-python/pip
